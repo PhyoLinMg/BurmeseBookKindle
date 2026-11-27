@@ -36,7 +36,7 @@ chapter-by-chapter proofreading.
 
 **Claude Code**
 ```bash
-git clone https://github.com/<you>/burmese-novel-kindle ~/.claude/skills/burmese-novel-kindle
+git clone https://github.com/PhyoLinMg/BurmeseBookKindle ~/.claude/skills/burmese-novel-kindle
 ```
 Then ask: *"Retype this Burmese novel PDF for Kindle and proofread it"* and attach the PDF.
 
