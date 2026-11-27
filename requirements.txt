@@ -1,0 +1,6 @@
+pymupdf
+pypdf
+pillow
+numpy
+# optional, only for scripts/find_overflow.py
+# playwright

@@ -1,0 +1,40 @@
+{
+  "text_glob": "text/*.txt",
+  "scans": "s",
+  "first_page": 3,
+  "last_page": 395,
+  "titles": {
+    "3": "ဆားပုလင်းနှင်းမောင် ပြောသော သရဲအကြောင်း",
+    "26": "ကုတ်အနက်ဝတ်ထားသော လူတစ်ယောက်",
+    "120": ""
+  },
+  "image_pages": [
+    26,
+    180
+  ],
+  "skip": [
+    178
+  ],
+  "running_heads": [
+    "ဘုမ္မာဝတီ\\s*\\S*ရှုပ်\\S*ပုံ[\\s၀-၉0-9]*",
+    "^.{0,12}(\\.com|www).{0,20}$"
+  ],
+  "author_head": "မင်းသိ",
+  "out": "blocks.json",
+  "headings": "headings.json",
+  "cleanup": {
+    "default_rules": true,
+    "strip": [
+      "\\bwww\\.?\\S*",
+      "[^\\s]*\\.com/?"
+    ],
+    "rules": [
+      [
+        "ကူ(?=[၊။”])",
+        "ကွ"
+      ]
+    ]
+  },
+  "edits_dir": ".",
+  "finalize": "finalize.json"
+}
